@@ -262,5 +262,11 @@ via `match-string'.")
   (rhombus--common-variables))
 
 
+;;;###autoload
+(progn
+  ;; Use simple regexps for auto-mode-alist as they may be given to
+  ;; grep (e.g. by default implementation of `xref-find-references').
+  (add-to-list 'auto-mode-alist '("\\.rhombus\\'" . rhombus-mode)))
+
 (provide 'rhombus-mode)
 ;;; rhombus-mode.el ends here
