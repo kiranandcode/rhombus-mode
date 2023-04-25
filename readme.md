@@ -11,4 +11,6 @@ It currently provides:
  
  Screenshot:
  
- 
+ ![example-of-code](https://raw.githubusercontent.com/Gopiandcode/rhombus-mode/master/images/image-2.png)
+
+ ![example-of-macros](https://raw.githubusercontent.com/Gopiandcode/rhombus-mode/master/images/image-1.png)
